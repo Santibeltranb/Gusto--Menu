@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/styles.css">
+    <title>Gusto Menú</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <img src="/Assets/Photos/LogoGusto.png" alt="Logo">
+                <nav>
+                    <button onclick="scrollToSection('ent-sect')">ENTRADAS</button>
+                    <button onclick="scrollToSection('des-sect')">DESAYUNOS</button>
+                    <button onclick="scrollToSection('alm-sect')">ALMUERZOS</button>
+                    <button onclick="scrollToSection('com-sect')">COMIDAS</button>
+                    <button onclick="scrollToSection('min-sect')">MENÚ INFANTIL</button>
+                    <button onclick="scrollToSection('beb-sect')">BEBIDAS</button>
+                </nav>
+            </div>
+    </header>
+
+    </div>
+
+    <div class="sections">
+
+        <section id="ent-sect">
+            <h2>ENTRADAS</h2>
+            <div class="entrada">
+
+                <div class="ent-item">
+                    <img src="/Assets/Photos/Cesar-420x200.png" alt="Cesar">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Ensalada César</div>
+                        <div class="menu-item-description">Fresca lechuga romana con crutones crujientes, queso parmesano y una cremosa salsa de anchoas, ajo y limón. Perfecta como entrada o acompañamiento.</div>
+                        <div class="menu-item-price">$20.900</div>
+                        <button class="quick-view-button" onclick="showQuickView('Ensalada César', 'Fresca lechuga romana con crutones crujientes, queso parmesano y una cremosa salsa de anchoas, ajo y limón. Perfecta como entrada o acompañamiento.', '$20.900', '/Assets/Photos/Cesar-420x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="ent-item">
+                    <img src="/Assets/Photos/Arepita-400x200.png" alt="Arepita-Hogao">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Arepita con Hogao</div>
+                        <div class="menu-item-description">Pequeñas arepas de maíz servidas con hogao, una salsa tradicional de tomate, cebolla y ajo. Perfectas como entrada o acompañamiento.</div>
+                        <div class="menu-item-price">$7.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Arepita con Hogao', 'Pequeñas arepas de maíz servidas con hogao, una salsa tradicional de tomate, cebolla y ajo. Perfectas como entrada o acompañamiento.', '$7.500', '/Assets/Photos/Arepita-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="ent-item">
+                    <img src="/Assets/Photos/Empanaditas-400x200.png" alt="Empanaditas">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Empanaditas</div>
+                        <div class="menu-item-description">Deliciosas empanaditas de carne o pollo horneadas. Perfectas como entrada o acompañamiento.</div>
+                        <div class="menu-item-price">$8.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Empanaditas', 'Deliciosas empanaditas de carne o pollo horneadas. Perfectas como entrada o acompañamiento.', '$8.500', '/Assets/Photos/Empanaditas-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="ent-item">
+                    <img src="/Assets/Photos/Deditos-400x200.png" alt="Deditos">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Deditos de Queso</div>
+                        <div class="menu-item-description">Bocados de queso blanco envueltos en masa y fritos hasta obtener una textura dorada y crujiente, servidos con salsa de su gusto. Perfectos como entrada o acompañamiento.</div>
+                        <div class="menu-item-price">$9.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Deditos de Queso', 'Bocados de queso blanco envueltos en masa y fritos hasta obtener una textura dorada y crujiente, servidos con salsa de su gusto. Perfectos como entrada o acompañamiento.', '$9.500', '/Assets/Photos/Deditos-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="des-sect">
+            <h2>DESAYUNOS</h2>
+            <div class="desayuno">
+
+                <div class="des-item">
+                    <img src="/Assets/Photos/Calentado-400x200.png" alt="Calentado">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Calentado</div>
+                        <div class="menu-item-description">Arroz y frijoles recalentados con huevos fritos, carne o chicharrón, plátano maduro frito y arepa.</div>
+                        <div class="menu-item-price">$15.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Calentado', 'Arroz y frijoles recalentados con huevos fritos, carne o chicharrón, plátano maduro frito y arepa.', '$15.500', '/Assets/Photos/Calentado-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="des-item">
+                    <img src="/Assets/Photos/ArepaHuevo-400x200.png" alt="Arepa-Huevo">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Arepa con Huevo</div>
+                        <div class="menu-item-description">Arepa de maíz rellena con huevo, servida con aguacate, tomate y queso.</div>
+                        <div class="menu-item-price">$13.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Arepa con Huevo', 'Arepa de maíz rellena con huevo, servida con aguacate, tomate y queso.', '$13.500', '/Assets/Photos/ArepaHuevo-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="des-item">
+                    <img src="/Assets/Photos/HuevosRev-400x200.png" alt="Huevo-Revuelto">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Huevos Revueltos</div>
+                        <div class="menu-item-description">Huevos revueltos acompañados de tocino, chorizo, rebanadas de pan y tomate.</div>
+                        <div class="menu-item-price">$15.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Huevos Revueltos', 'Huevos revueltos acompañados de tocino, chorizo, rebanadas de pan y tomate.', '$15.500', '/Assets/Photos/HuevosRev-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="des-item">
+                    <img src="/Assets/Photos/Tamal-400x200.png" alt="Tamal">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Tamal</div>
+                        <div class="menu-item-description">Masa de maíz con pollo o cerdo, envuelta en hojas de plátano y cocida al vapor. Se sirve con chocolate caliente o café.</div>
+                        <div class="menu-item-price">$13.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Tamal', 'Masa de maíz con pollo o cerdo, envuelta en hojas de plátano y cocida al vapor. Se sirve con chocolate caliente o café.', '$13.500', '/Assets/Photos/Tamal-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="alm-sect">
+            <h2>ALMUERZOS</h2>
+            <div class="almuerzo">
+
+                <div class="alm-item">
+                    <img src="/Assets/Photos/Bandeja-400x200.png" alt="Bandeja">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Bandeja Paisa</div>
+                        <div class="menu-item-description">Un plato abundante con arroz, frijoles, carne molida, chicharrón, huevo frito, plátano maduro, aguacate y arepa. Una experiencia completa de sabores.</div>
+                        <div class="menu-item-price">$27.500</div>  
+                        <button class="quick-view-button" onclick="showQuickView('Bandeja Paisa', 'Un plato abundante con arroz, frijoles, carne molida, chicharrón, huevo frito, plátano maduro, aguacate y arepa. Una experiencia completa de sabores.', '$27.500', '/Assets/Photos/Bandeja-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="alm-item">
+                    <img src="/Assets/Photos/Sancocho-400x200.png" alt="Sancocho">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Sancocho</div>
+                        <div class="menu-item-description">Sopa robusta de carne (res, pollo o cerdo) con papa, yuca, plátano y mazorca. Servida con arroz y aguacate. Un clásico reconfortante.</div>
+                        <div class="menu-item-price">$25.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Sancocho', 'Sopa robusta de carne (res, pollo o cerdo) con papa, yuca, plátano y mazorca. Servida con arroz y aguacate. Un clásico reconfortante.', '$25.500', '/Assets/Photos/Sancocho-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="alm-item">
+                    <img src="/Assets/Photos/Ajiaco-400x200.png" alt="Ajiaco">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Ajiaco</div>
+                        <div class="menu-item-description">Sopa cremosa de pollo con tres tipos de papa, mazorca y guascas, servida con alcaparras, crema de leche, aguacate y arroz. Un plato tradicional y sabroso.</div>
+                        <div class="menu-item-price">$25.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Ajiaco', 'Sopa cremosa de pollo con tres tipos de papa, mazorca y guascas, servida con alcaparras, crema de leche, aguacate y arroz. Un plato tradicional y sabroso.', '$25.500', '/Assets/Photos/Ajiaco-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="alm-item">
+                    <img src="/Assets/Photos/ArrozPollo-400x200.png" alt="Arroz-Pollo">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Arroz con Pollo</div>
+                        <div class="menu-item-description">Arroz cocido con pollo desmenuzado y vegetales, sazonado con hierbas y especias. Acompañado de ensalada y plátano maduro frito. Un plato clásico y reconfortante.</div>
+                        <div class="menu-item-price">$27.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Arroz con Pollo', 'Arroz cocido con pollo desmenuzado y vegetales, sazonado con hierbas y especias. Acompañado de ensalada y plátano maduro frito. Un plato clásico y reconfortante.', '$27.500', '/Assets/Photos/ArrozPollo-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="com-sect">
+            <h2>COMIDAS</h2>
+            <div class="comida">
+
+                <div class="com-item">
+                    <img src="/Assets/Photos/Pasta-400x200.png" alt="Pasta">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Pasta Carbonara</div>
+                        <div class="menu-item-description">Pasta cremosa con panceta, queso parmesano y pimienta negra. Un clásico reconfortante de la cocina italiana.</div>
+                        <div class="menu-item-price">30.000</div>
+                        <button class="quick-view-button" onclick="showQuickView('Pasta Carbonara', 'Pasta cremosa con panceta, queso parmesano y pimienta negra. Un clásico reconfortante de la cocina italiana.', '$30.000', '/Assets/Photos/Pasta-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="com-item">
+                    <img src="/Assets/Photos/PolloChamp-400x200.png" alt="Pollo">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Pollo A La Parrilla En Salsa de Champiñones</div>
+                        <div class="menu-item-description">Pechuga de pollo a la parrilla cubierta con una salsa cremosa de champiñones y hierbas frescas. Una combinación sabrosa y satisfactoria.</div>
+                        <div class="menu-item-price">$32.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Pollo A La Parrilla En Salsa de Champiñones', 'Pechuga de pollo a la parrilla cubierta con una salsa cremosa de champiñones y hierbas frescas. Una combinación sabrosa y satisfactoria.', '$32.500', '/Assets/Photos/PolloChamp-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="com-item">
+                    <img src="/Assets/Photos/Lomo-400x200.png" alt="Lomo">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Lomo de Res al Grill con Chimichurri</div>
+                        <div class="menu-item-description">Jugoso lomo de res asado a la parrilla y servido con una salsa chimichurri casera, hecha con hierbas frescas, ajo y aceite de oliva. Una explosión de sabores y texturas.</div>
+                        <div class="menu-item-price">$35.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Lomo de Res al Grill con Chimichurri', 'Jugoso lomo de res asado a la parrilla y servido con una salsa chimichurri casera, hecha con hierbas frescas, ajo y aceite de oliva. Una explosión de sabores y texturas.', '$35.500', '/Assets/Photos/Lomo-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="com-item">
+                    <img src="/Assets/Photos/Chuleta-400x200.png" alt="Chuleta">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Chuletas de Cerdo Glaseadas con Pure de Papa</div>
+                        <div class="menu-item-description">Chuletas de cerdo doradas y jugosas, glaseadas con una salsa agridulce y servidas sobre un lecho de puré de papas cremoso. Una combinación deliciosa de sabores dulces y salados.</div>
+                        <div class="menu-item-price">$27.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Chuletas de Cerdo Glaseadas con Puré de Papa', 'Chuletas de cerdo doradas y jugosas, glaseadas con una salsa agridulce y servidas sobre un lecho de puré de papas cremoso. Una combinación deliciosa de sabores dulces y salados.', '$27.500', '/Assets/Photos/Chuleta-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="min-sect">
+            <h2>MENÚ INFANTIL</h2>
+            <div class="infantil">
+
+                <div class="min-item">
+                    <img src="/Assets/Photos/MiniHam-400x200.png" alt="Hamburguesas">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Mini Hamburguesas</div>
+                        <div class="menu-item-description">Una sabrosa hamburguesa de carne de res con queso, lechuga y tomate en un pan suave, acompañada de papas fritas. De postre, una galleta de chocolate. Además, incluye un pequeño juguete sorpresa.</div>
+                        <div class="menu-item-price">$16.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Mini Hamburguesas', 'Una sabrosa hamburguesa de carne de res con queso, lechuga y tomate en un pan suave, acompañada de papas fritas. De postre, una galleta de chocolate. Además, incluye un pequeño juguete sorpresa.', '$16.500', '/Assets/Photos/MiniHam-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="min-item">
+                    <img src="/Assets/Photos/MiniPizza-400x200.png" alt="Pizzas">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Mini Pizzas</div>
+                        <div class="menu-item-description">Pequeñas pizzas individuales con salsa de tomate, queso y tus ingredientes favoritos, horneadas a la perfección. De postre, una porción de helado de vainilla con sirope de chocolate. Además, incluye un pequeño juguete sorpresa.</div>
+                        <div class="menu-item-price">$16.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Mini Pizzas', 'Pequeñas pizzas individuales con salsa de tomate, queso y tus ingredientes favoritos, horneadas a la perfección. De postre, una porción de helado de vainilla con sirope de chocolate. Además, incluye un pequeño juguete sorpresa.', '$16.500', '/Assets/Photos/MiniPizza-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="min-item">
+                    <img src="/Assets/Photos/Nuggets-400x200.png" alt="Nuggets">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title"></div>
+                        <div class="menu-item-description">Trozos de pollo empanizados y crujientes, servidos con una salsa de tu elección. De postre, una gelatina de frutas. Además, incluye un pequeño juguete sorpresa.</div>
+                        <div class="menu-item-price">$13.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Nuggets', 'Trozos de pollo empanizados y crujientes, servidos con una salsa de tu elección. De postre, una gelatina de frutas. Además, incluye un pequeño juguete sorpresa.', '$13.500', '/Assets/Photos/Nuggets-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="min-item">
+                    <img src="/Assets/Photos/Macarrones-400x200.png" alt="Macarrones">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Macarrones con Queso</div>
+                        <div class="menu-item-description">Macarrones cocidos al dente en una cremosa salsa de queso, gratinados hasta obtener una capa dorada y crujiente. Incluye un postre sorpresa y un pequeño juguete.</div>
+                        <div class="menu-item-price">$14.500</div>
+                        <button class="quick-view-button" onclick="showQuickView('Macarrones con Queso', 'Macarrones cocidos al dente en una cremosa salsa de queso, gratinados hasta obtener una capa dorada y crujiente. Incluye un postre sorpresa y un pequeño juguete.', '$14.500', '/Assets/Photos/Macarrones-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="beb-sect">
+            <h2>BEBIDAS</h2>
+            <div class="bebida">
+
+                <div class="beb-item">
+                    <img src="/Assets/Photos/Sodas-400x200.png" alt="Sodas">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Sodas</div>
+                        <div class="menu-item-description">Coca-Cola, Pepsi, Sprite, Fanta, Productos Postobón.</div>
+                        <div class="menu-item-price">$3.500 - $5.000</div>
+                        <button class="quick-view-button" onclick="showQuickView('Sodas', 'Coca-Cola, Pepsi, Sprite, Fanta, Productos Postobón.', '$3.500 - $5.000', '/Assets/Photos/Sodas-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="beb-item">
+                    <img src="/Assets/Photos/Jugos-400x200.png" alt="Jugos">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Jugos Naturales</div>
+                        <div class="menu-item-description">En Agua o Leche: Limonada, Naranja, Mango, Fresa, Mora, Piña.</div>
+                        <div class="menu-item-price">$4.000 - $6.000</div>
+                        <button class="quick-view-button" onclick="showQuickView('Jugos Naturales', 'En Agua o Leche: Limonada, Naranja, Mango, Fresa, Mora, Piña.', '$4.000 - $6.000', '/Assets/Photos/Jugos-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="beb-item">
+                    <img src="/Assets/Photos/Cerveza-400x200.png" alt="Cervezas">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Cervezas</div>
+                        <div class="menu-item-description">Club Colombia, Pilsen, BBC, Corona.</div>
+                        <div class="menu-item-price">$5.500 - $10.000</div>
+                        <button class="quick-view-button" onclick="showQuickView('Cervezas', 'Club Colombia, Pilsen, BBC, Corona.', '$5.500 - $10.000', '/Assets/Photos/Cerveza-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+                <div class="beb-item">
+                    <img src="/Assets/Photos/Drinks-400x200.png" alt="Cocteles">
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">Cócteles</div>
+                        <div class="menu-item-description">Mojito, Margarita, Piña Colada, Daiquiri, Caipirinha.</div>
+                        <div class="menu-item-price">$14.000 - $20.000</div>
+                        <button class="quick-view-button" onclick="showQuickView('Cócteles', 'Mojito, Margarita, Piña Colada, Daiquiri, Caipirinha.', '$14.000 - $20.000', '/Assets/Photos/Drinks-400x200.png')">Vista rápida</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modalContent">
+            <h2 id="modalItemName"></h2>
+            <div id="modalItemDescription"></div>
+            <p id="modalItemPrice"></p>
+            <img id="modalItemImage" src="" alt="">
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function showQuickView(itemName, itemDescription, itemPrice, itemImage) {
+            var modal = document.getElementById("myModal");
+            var modalItemName = document.getElementById("modalItemName");
+            var modalItemDescription = document.getElementById("modalItemDescription");
+            var modalItemPrice = document.getElementById("modalItemPrice");
+            var modalItemImage = document.getElementById("modalItemImage");
+
+            modal.style.display = "block";
+            modalItemName.textContent = itemName;
+            modalItemDescription.textContent = itemDescription;
+            modalItemPrice.textContent = "Precio: " + itemPrice;
+            modalItemImage.src = itemImage;
+        }
+
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            var modal = document.getElementById("myModal");
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        document.addEventListener('keydown', function(event) {
+            var modal = document.getElementById("myModal");
+            if (event.key === "Escape" && modal.style.display === "block") {
+                modal.style.display = "none";
+            }
+        });
+
+    </script>
+</body>
+
+</html>
